@@ -6,33 +6,29 @@
     <link rel="stylesheet" href="style.css">
     <title>To Do</title>
 </head>
-    <body>
-        <section class="todo">
-            <h2>To Do List</h2>
-            <div class="input">
-                <input type="text" 
-                class="input-field" 
-                id="todoInput" 
-                placeholder="Add a new to do">
-            </div>
-            <button class="btn">Add</button>
-            <ul class="scroll">
-                <li id="todoList"></li>
-            </ul>
-            <div>
-                <div class="counter-container">
-                    <p><span>0</span> items total</p>
-                    <button id="deleteButton">Delete All</button>
-                </div>
-            </div>
-            
-        </section>
-
-        <footer>
-            
-        </footer>
-
-
-
-    </body>
+<body>
+    <section class="todo">
+      <h2>To-do list</h2>
+      <div class="input">
+        <input
+          type="text"
+          class="input-field"
+          id="todoInput"
+          placeholder="Add a new todo"
+        />
+        <button class="btn">Add</button>
+      </div>
+      <ul class="scroll">
+        <li id="todoList"></li>
+      </ul>
+      <div>
+        <hr class="counter" />
+        <div class="counter-container">
+          <p><span id="todoCount">0</span> items total</p>
+          <button id="deleteButton">Delete All</button>
+        </div>
+      </div>
+    </section>
+    
+  </body>
 </html>
